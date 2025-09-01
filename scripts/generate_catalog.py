@@ -2256,17 +2256,17 @@ try:
         <div class="top-nav-container">
             <div class="top-nav-area">
                 <div class="header-logos">
+                    <a href="https://lacunafund.org/" target="_blank" title="Lacuna Fund">
+                        <img src="img/lacuna_logo.png" alt="Lacuna Fund Logo" class="header-logo">
+                    </a>
+                    <a href="https://merid.org/" target="_blank" title="MERID">
+                        <img src="img/merid_logo.jpg" alt="MERID Logo" class="header-logo">
+                    </a>
+                    <a href="https://dsfsi.github.io/" target="_blank" title="Data Science for Social Impact">
+                        <img src="img/dsfsi.jpeg" alt="DSFSI Logo" class="header-logo">
+                    </a>
                     <a href="https://www.bmz-digital.global/en/overview-of-initiatives/fair-forward/" target="_blank" title="Fair Forward Initiative">
                         <img src="img/ff_official.png" alt="Fair Forward Logo" class="header-logo">
-                    </a>
-                    <a href="https://www.bmz-digital.global/en/" target="_blank" title="Digital Global">
-                        <img src="img/digital_global_official.png" alt="Digital Global Logo" class="header-logo">
-                    </a>
-                    <a href="https://www.bmz.de/en" target="_blank" title="Federal Ministry for Economic Cooperation and Development">
-                        <img src="img/ministry_official.png" alt="BMZ Logo" class="header-logo">
-                    </a>
-                    <a href="https://www.giz.de/en/html/index.html" target="_blank" title="Deutsche Gesellschaft für Internationale Zusammenarbeit">
-                        <img src="img/giz_official.png" alt="GIZ Logo" class="header-logo">
                     </a>
                 </div>
                 <div class="top-nav-links"> <!-- Add this wrapper div -->
@@ -2282,10 +2282,10 @@ try:
         <div class="header-content">
             <div class="header-main">
                 <div class="header-text">
-                    <h1>Fair Forward - Open Data & Use Cases</h1>
+                    <h1>Lacuna Fund - Open Data Sets & Use Cases</h1>
                     <p class="subtitle">Exploring datasets and solutions for global challenges across agriculture, language technology, climate action, energy, and more.</p>
-                    <a href="https://www.bmz-digital.global/en/overview-of-initiatives/fair-forward/" target="_blank" class="header-learn-more">
-                        [Learn more about Fair Forward]
+                    <a href="https://lacunafund.org/" target="_blank" class="header-learn-more">
+                        [Learn more about the Lacuna Fund]
                     </a>
                 </div>
                 <div class="header-stats">

@@ -21,7 +21,6 @@ import os
 import re
 import json
 import argparse
-import logging
 import random
 import time
 import requests
@@ -30,16 +29,6 @@ from tqdm import tqdm
 from dotenv import load_dotenv
 from urllib.parse import quote_plus
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler("placeholder_images.log"),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
 
 # Load environment variables from .env file if it exists
 load_dotenv()

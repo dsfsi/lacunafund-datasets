@@ -13,6 +13,7 @@ from thefuzz import process, fuzz
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Fetch data from Google Sheets and build the website.')
 parser.add_argument('--output', type=str, default="docs/data_catalog.xlsx", help='Path to save the Excel file')
+# You need to change this to a different service account than mine mid/longterm.
 parser.add_argument('--credentials', type=str, default="data_sources/google_sheets_api/service_account_JN.json", help='Path to the Google Sheets API credentials file')
 parser.add_argument('--backup', action='store_true', help='Create a backup of the existing Excel file')
 parser.add_argument('--skip-fetch', action='store_true', help='Skip fetching data from Google Sheets and just build the website')
@@ -184,9 +185,9 @@ if not args.skip_fetch:
         client = gspread.authorize(credentials)
         
         # Extract correct spreadsheet ID and gid from full URL
-        full_url = "https://docs.google.com/spreadsheets/d/18sgZgPGZuZjeBTHrmbr1Ra7mx8vSToUqnx8vCjhIp0c/edit?gid=561894456#gid=561894456"
+        full_url = "https://docs.google.com/spreadsheets/d/18sgZgPGZuZjeBTHrmbr1Ra7mx8vSToUqnx8vCjhIp0c/edit?gid=2002859408#gid=2002859408"
         spreadsheet_id = full_url.split('/d/')[1].split('/')[0]
-        gid = 756053104
+        gid = 2002859408
         
         # Connect to sheet
         spreadsheet = client.open_by_key(spreadsheet_id)

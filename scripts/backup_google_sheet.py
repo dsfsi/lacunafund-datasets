@@ -9,8 +9,8 @@ def main():
     parser = argparse.ArgumentParser(description='Backup Google Sheet data to CSV.')
     parser.add_argument('--credentials', type=str, required=True, help='Path to Google API credentials JSON file.')
     parser.add_argument('--backup-dir', type=str, required=True, help='Directory to save the backup CSV file.')
-    parser.add_argument('--sheet-url', type=str, default="https://docs.google.com/spreadsheets/d/18sgZgPGZuZjeBTHrmbr1Ra7mx8vSToUqnx8vCjhIp0c/edit?gid=561894456#gid=561894456", help='Full URL of the Google Sheet.')
-    parser.add_argument('--gid', type=int, default=756053104, help='GID of the specific sheet tab.')
+    parser.add_argument('--sheet-url', type=str, default="https://docs.google.com/spreadsheets/d/18sgZgPGZuZjeBTHrmbr1Ra7mx8vSToUqnx8vCjhIp0c/edit?gid=2002859408#gid=2002859408", help='Full URL of the Google Sheet.')
+    parser.add_argument('--gid', type=int, default=2002859408, help='GID of the specific sheet tab.')
     args = parser.parse_args()
 
     print("Starting monthly Google Sheet backup...")

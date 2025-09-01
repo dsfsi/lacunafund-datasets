@@ -1,1 +1,1 @@
-Improve the Kahi Ankahi Baatein (KAB) platform by fine-tuning Hindi LLMs for better user experience.
+Extensive bioinformatics resource that leverages tree species’ medicinal, food provision, and other trait data, together with southern African trees’ climate relationships and growth characteristics for climate adaptation and mitigation planning.

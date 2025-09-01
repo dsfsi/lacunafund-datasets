@@ -1,0 +1,1 @@
+• Integrate household-level socioeconomic data to study drivers of land use change and cocoa–forest dynamics.

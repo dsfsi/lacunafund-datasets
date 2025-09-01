@@ -1,0 +1,1 @@
+• Use as a benchmark dataset to evaluate remote sensing products in heterogeneous tropical landscapes.

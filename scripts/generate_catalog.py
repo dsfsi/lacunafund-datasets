@@ -1245,10 +1245,10 @@ try:
             --solarized-light-bg: #fefcf5;
             --solarized-card-bg: #f5f2ea;
 
-            /* Classic Blue Theme */
-            --classic-primary: #3b5998;
-            --classic-primary-light: #4c70ba;
-            --classic-secondary: #5b7fb9;
+            /* Lacuna Fund Theme - Based on logo colors (blue, teal, yellow, green) */
+            --classic-primary: #2aa198; /* Teal from logo */
+            --classic-primary-light: #268bd2; /* Blue from logo */
+            --classic-secondary: #859900; /* Green from logo */
             --classic-light: #f9fafb;
             --classic-dark: #1a202c;
             --classic-gray: #64748b;
@@ -1259,7 +1259,7 @@ try:
             --classic-text-light: #64748b;
             --classic-shadow: rgba(0, 0, 0, 0.04);
             --classic-shadow-hover: rgba(0, 0, 0, 0.08);
-            --classic-title-color: #2c4a7c;
+            --classic-title-color: #2aa198; /* Teal for titles */
             --classic-btn-text: #ffffff;
 
             /* Active Theme Variables (Default: Classic) */
@@ -1274,7 +1274,7 @@ try:
             --shadow-hover: var(--classic-shadow-hover);
             --title-color: var(--classic-title-color);
             --btn-text: var(--classic-btn-text);
-            --yellow: #d97706;
+            --yellow: #b58900; /* Yellow from Lacuna Fund logo */
         }
 
         /* Solarized Theme Override */
@@ -1316,11 +1316,38 @@ try:
         
         header {
             background-color: var(--background); /* Simplified to single background color */
-            padding: 0 0 3.5rem; /* Increased bottom padding from 2rem to 3.5rem */
+            background-image: url('img/lacuna_website_background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 0 0 4rem; /* More generous padding */
             position: relative;
             overflow: hidden;
             border-bottom: 1px solid var(--border);
             box-shadow: 0 2px 10px var(--shadow);
+        }
+        
+        /* Add a stronger gradient overlay for natural reading flow - dark left to light right */
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, 
+                rgba(0, 0, 0, 0.6) 0%, 
+                rgba(0, 0, 0, 0.4) 25%, 
+                rgba(0, 0, 0, 0.2) 50%, 
+                rgba(0, 0, 0, 0.1) 75%, 
+                rgba(0, 0, 0, 0.05) 100%); /* Stronger gradient from dark left to light right */
+            z-index: 1;
+        }
+        
+        /* Ensure header content appears above the overlay */
+        header > * {
+            position: relative;
+            z-index: 2;
         }
 
         /* Top navigation area that will contain both the logos and the about link */
@@ -1434,34 +1461,37 @@ try:
         }
         
         .header-text h1 {
-            margin-bottom: 0.75rem;
-            font-size: 2.5rem;
-            font-weight: 400;
-            color: var(--title-color);
-            line-height: 1.2;
+            margin-bottom: 1.5rem; /* More generous spacing */
+            font-size: 3rem; /* Larger, more prominent */
+            font-weight: 700; /* Bolder for cleaner look */
+            color: #ffffff; /* Clean white text */
+            line-height: 1.1;
             position: relative;
-            letter-spacing: -0.015em;
+            letter-spacing: -0.02em;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
         }
         
         .subtitle {
-            font-size: 1.15rem;
-            color: var(--text-light);
-            max-width: 800px;
-            font-weight: 300;
-            line-height: 1.5;
-            margin-top: 1rem;
-            letter-spacing: 0.01em;
-            margin-bottom: 1.25rem;
+            font-size: 1.25rem; /* Slightly larger */
+            color: #ffffff; /* Clean white text */
+            max-width: 700px; /* Slightly narrower for better readability */
+            font-weight: 300; /* Lighter weight for elegance */
+            line-height: 1.6;
+            margin-top: 0; /* Tighter spacing with title */
+            letter-spacing: 0.005em;
+            margin-bottom: 2rem; /* More space below */
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); /* Very subtle shadow */
         }
         
         .header-learn-more {
             display: inline-flex;
             align-items: center;
             font-size: 0.9rem;
-            color: var(--primary);
+            color: #ffffff; /* White text to match header */
             text-decoration: none;
             margin-top: 0.25rem;
             transition: all 0.2s ease;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for readability */
         }
         
         .header-learn-more:hover {
@@ -1667,13 +1697,13 @@ try:
         
         .domain-badge {
             display: inline-block;
-            background-color: var(--primary); /* Using primary accent */
+            background-color: var(--primary); /* Using teal from Lacuna Fund */
             color: var(--btn-text); /* Text on primary accent */
             padding: 0.25rem 0.75rem;
             border-radius: 2rem;
             font-size: 0.7rem;
             font-weight: 500;
-            box-shadow: 0 2px 4px rgba(38, 139, 210, 0.15); /* Using blue for shadow, alpha adjusted */
+            box-shadow: 0 2px 4px rgba(42, 161, 152, 0.15); /* Using teal for shadow */
         }
         
         .data-type-chips {
@@ -1705,7 +1735,7 @@ try:
         .card h3 {
             font-size: 1rem; /* Reduced from 1.125rem */
             margin-bottom: 0.5rem;
-            color: var(--title-color);
+            color: var(--text); /* Softer dark color that matches other text */
             line-height: 1.3;
             font-weight: 600;
         }
@@ -1749,7 +1779,7 @@ try:
         }
         
         .details-link {
-            color: var(--primary);
+            color: var(--primary); /* Greenish color for the link */
             font-size: 0.875rem;
             font-weight: 500;
             cursor: pointer;
@@ -2129,14 +2159,16 @@ try:
         .stat-value {
             font-size: 1.75rem;
             font-weight: 500;
-            color: var(--title-color);
+            color: #ffffff; /* White text to match header */
             line-height: 1.1;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for readability */
         }
         
         .stat-label {
             font-size: 0.9rem;
-            color: var(--text-light);
+            color: #ffffff; /* White text to match header */
             margin-top: 0.15rem;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for readability */
         }
 
         /* Modal Styles */
@@ -2283,7 +2315,7 @@ try:
             <div class="header-main">
                 <div class="header-text">
                     <h1>Lacuna Fund - Open Data Sets & Use Cases</h1>
-                    <p class="subtitle">Exploring datasets and solutions for global challenges across agriculture, language technology, climate action, energy, and more.</p>
+                    <p class="subtitle">Lacuna Fund is the world’s first collaborative effort to provide data scientists, researchers, and social entrepreneurs in low- and middle-income contexts globally with the resources they need to produce labeled datasets that address urgent problems in their communities.</p>
                     <a href="https://lacunafund.org/" target="_blank" class="header-learn-more">
                         [Learn more about the Lacuna Fund]
                     </a>
@@ -2349,10 +2381,9 @@ try:
     
     <footer>
         <div class="footer-content">
-            <p>&copy; {datetime.datetime.now().year} Fair Forward - Artificial Intelligence for All | A project by GIZ</p>
-            <p style="margin-top: 1rem; font-size: 0.875rem;"><a href="https://github.com/Fair-Forward/datasets" target="_blank" style="color: var(--primary); text-decoration: none;">Contribute to the Source Code on GitHub <i class="fab fa-github"></i></a></p>
-            <p style="margin-top: 0.5rem; font-size: 0.875rem;">For technical questions/feedback <a href="https://github.com/Fair-Forward/datasets/issues" target="_blank" style="color: var(--primary);">open an issue on Github</a> or contact <a href="mailto:jonas.nothnagel@gmail.com" style="color: var(--primary);">Jonas Nothnagel</a>.</p>
-            <p style="margin-top: 0.5rem; font-size: 0.875rem;"><a href="analytics.html" style="color: var(--primary);">View Analytics Dashboard</a></p>
+            <p>&copy; {datetime.datetime.now().year} Lacuna Fund</p>
+            <p style="margin-top: 1rem; font-size: 0.875rem;"><a href="https://github.com/dsfsi/lacunafund-datasets" target="_blank" style="color: var(--primary); text-decoration: none;">Contribute to the Source Code on GitHub <i class="fab fa-github"></i></a></p>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem;">For technical questions/feedback <a href="https://github.com/dsfsi/lacunafund-datasets/issues" target="_blank" style="color: var(--primary);">open an issue on Github</a> or contact <a href="mailto:jonas.nothnagel@gmail.com" style="color: var(--primary);">Jonas Nothnagel</a>.</p>
         </div>
     </footer>
     

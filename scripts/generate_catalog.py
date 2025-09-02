@@ -699,7 +699,6 @@ def generate_filter_html(domains, data_types, regions, lacuna_datasets):
                     <option value="all">All Items</option>
                     <option value="datasets">Datasets Only</option>
                     <option value="usecases">Use Cases Only</option>
-                    <option value="lacuna">Lacuna Fund</option>
                 </select>
             </div>
             <div class="filter-group">
@@ -2413,7 +2412,7 @@ try:
             <button id="about-website-close" class="modal-close">&times;</button>
             <h2>About This Website</h2>
             <p>
-                Welcome to our organization's data and use-case catalog. Below is a list of datasets and use-cases that have been collected throughout our programme Fair Forward. This website aims to function as an open-sourced community place to link to our partners work and provide clear information on how the datasets and use-cases can be replicated and worked with. All listed datasets and use-cases are openly available as digital public goods.
+                Welcome to our Lacuna Funds's data and use-case catalog. This website aims to function as an open-sourced community place to link to our partners work and provide clear information on how the datasets and use-cases can be replicated and worked with. All listed datasets and use-cases are openly available as digital public goods.
             </p>
             <p>
                 Please adhere to fair contributing: "This is a global digital public good under open-source licenses as named under "licenses" - Please consider fair sharing and giving back to communities in an appropriate way."

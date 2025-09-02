@@ -2288,13 +2288,13 @@ try:
             <div class="top-nav-area">
                 <div class="header-logos">
                     <a href="https://lacunafund.org/" target="_blank" title="Lacuna Fund">
-                        <img src="img/lacuna_logo.png" alt="Lacuna Fund Logo" class="header-logo">
+                        <img src="img/lacuna_transparent_logo_2.png" alt="Lacuna Fund Logo" class="header-logo">
                     </a>
                     <a href="https://merid.org/" target="_blank" title="MERID">
-                        <img src="img/merid_logo.jpg" alt="MERID Logo" class="header-logo">
+                        <img src="img/merid_logo_2.png" alt="MERID Logo" class="header-logo">
                     </a>
                     <a href="https://dsfsi.github.io/" target="_blank" title="Data Science for Social Impact">
-                        <img src="img/dsfsi.jpeg" alt="DSFSI Logo" class="header-logo">
+                        <img src="img/logo_transparent_expanded.png" alt="DSFSI Logo" class="header-logo">
                     </a>
                     <a href="https://www.bmz-digital.global/en/overview-of-initiatives/fair-forward/" target="_blank" title="Fair Forward Initiative">
                         <img src="img/ff_official.png" alt="Fair Forward Logo" class="header-logo">

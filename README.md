@@ -8,13 +8,13 @@ You can access the live website here: [Data Catalog!](https://www.dsfsi.co.za/la
 
 ## How to Contribute Data
 
-Want to add your dataset or AI use case to this catalog? Great!
+If you are a Lacuna Fund grantee and want to add/change your dataset, please see the instructions below:
 
-1.  **Access the Source:** The data for this catalog lives in this [Google Sheet](https://docs.google.com/spreadsheets/d/18sgZgPGZuZjeBTHrmbr1Ra7mx8vSToUqnx8vCjhIp0c/edit?gid=561894456#gid=561894456).
+1.  **Access the Source:** The data for this catalog lives in this [Google Sheet](https://docs.google.com/spreadsheets/d/18sgZgPGZuZjeBTHrmbr1Ra7mx8vSToUqnx8vCjhIp0c/edit?gid=2002859408#gid=2002859408).
 2.  **Add Your Project:** Add a new row to the sheet and fill in the details for your project. Please follow the format of existing entries and use the second row as a guide for the expected content in each column.
 3.  **Update the Website:** Once you've added your information to the Google Sheet, the website needs to be rebuilt to include it. Please contact one of the repository maintainers or follow the "Update via GitHub Actions" steps below (if you have write access) to trigger an update.
 
-## How to Update the Catalog
+## How to Update the Website
 
 The content of this catalog is primarily sourced from the Google Sheet mentioned above. Changes made there need to be reflected on the website.
 

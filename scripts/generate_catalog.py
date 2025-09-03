@@ -2412,7 +2412,7 @@ try:
             <button id="about-website-close" class="modal-close">&times;</button>
             <h2>About This Website</h2>
             <p>
-                Welcome to our Lacuna Funds's data and use-case catalog. This website aims to function as an open-sourced community place to link to our partners work and provide clear information on how the datasets and use-cases can be replicated and worked with. All listed datasets and use-cases are openly available as digital public goods.
+                Welcome to the Lacuna Funds's data and use-case catalog. This website aims to function as an open-sourced community place to link and sustain the work of all partners and grantees of the Lacuna Fund and provide clear information on how the collected datasets and use-cases can be replicated and worked with. All listed datasets and use-cases are openly available as digital public goods.
             </p>
             <p>
                 Please adhere to fair contributing: "This is a global digital public good under open-source licenses as named under "licenses" - Please consider fair sharing and giving back to communities in an appropriate way."

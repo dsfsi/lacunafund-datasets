@@ -14,3 +14,5 @@ What can be done immediately:
  • Dataset itself is open access (no cost).
  • Small-scale applications (e.g., testing models in Google Earth Engine or QGIS) incur negligible costs.
  • Larger-scale ML training and national-scale mapping may require cloud compute budgets
+• Train and validate machine learning models for cocoa farm detection, deforestation monitoring, and land use classification.
+• Use as a benchmark dataset to evaluate remote sensing products in heterogeneous tropical landscapes.

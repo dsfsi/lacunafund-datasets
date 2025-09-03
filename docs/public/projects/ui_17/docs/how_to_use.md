@@ -1,1 +1,1 @@
-• Use as a benchmark dataset to evaluate remote sensing products in heterogeneous tropical landscapes.
+The land use/cover change datasets improve the understanding of the relationship between land cover/land use change and climate change. The can also be used to inform practice and policy on how best to manage various potential scenarios and combat deforestation.        

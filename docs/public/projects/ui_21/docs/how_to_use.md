@@ -1,1 +1,0 @@
-• Add new field reference data from other cocoa-producing regions (e.g., Côte d’Ivoire, Nigeria) to increase transferability.

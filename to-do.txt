@@ -1,5 +1,4 @@
 03.09:
-- fix transparent logos and sizing.
-- fix backend entries
 - fix category tags.
+- fix images
 

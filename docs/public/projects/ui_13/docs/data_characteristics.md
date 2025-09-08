@@ -1,1 +1,0 @@
-This meteorological dataset has been accumulated over a period of 18 months for the six urban centers. This weather data comprises of up to 10 essential variables such as temperature, atmospheric pressure, humidity and Precipitation, thus providing an all-around perspective of the environmental elements impacting energy consumption.

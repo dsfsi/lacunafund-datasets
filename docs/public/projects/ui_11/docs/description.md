@@ -1,3 +1,1 @@
-The project created a 20.000 points land use/cover classification training dataset from existing data, 
- with labels that can be used to train multi-spectral Earth observation (EO) data machine learning (ML) 
- models covering continental Ecuador and the Galapagos islands
+The team developed a labeled training dataset, derived from 50cm or better satellite imagery, based on a novel, pre-defined road space classification taxonomy appropriate for training and deployment of large-scale deep-learning models

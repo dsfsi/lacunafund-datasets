@@ -1183,6 +1183,7 @@ try:
     dataset_count = 0
     usecase_count = 0
     valid_countries = set()
+    rows_with_valid_links = 0  # Count rows that have at least one valid link (published)
 
     for index, row in df.iterrows():
         # Count individual dataset links
@@ -1205,8 +1206,10 @@ try:
                 usecase_count += len(usecase_link_entries)
                 has_usecase_link = True
         
-        # Count unique countries ONLY from rows with at least one valid link
+        # Track rows with valid links (published items)
         if has_dataset_link or has_usecase_link:
+            rows_with_valid_links += 1
+            # Count unique countries ONLY from rows with at least one valid link
             country_text = row.get('Country Team')
             if isinstance(country_text, str) and not pd.isna(country_text):
                 parts = re.split(r',|\s+and\s+|;', country_text)
@@ -1217,6 +1220,16 @@ try:
     
     # The final count is the number of unique countries found in valid rows
     country_count = len(valid_countries)
+    
+    # Count pipeline items (rows in sheet without valid links)
+    total_rows = len(df)
+    pipeline_count = total_rows - rows_with_valid_links
+    
+    # Build pipeline disclaimer text
+    if pipeline_count > 0:
+        pipeline_disclaimer = f'<div class="pipeline-disclaimer">Additional {pipeline_count} dataset/use-case{"s" if pipeline_count != 1 else ""} in the pipeline</div>'
+    else:
+        pipeline_disclaimer = ''
     
     # Get unique categories for filter and CSS generation
     # Note: get_unique_categories might need similar filtering if its results
@@ -2181,6 +2194,15 @@ try:
             margin-top: 0.15rem;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for readability */
         }
+        
+        .pipeline-disclaimer {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+            margin-top: 0.5rem;
+            text-align: center;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for readability */
+            font-style: italic;
+        }
 
         /* Modal Styles */
         .modal-container {
@@ -2354,6 +2376,7 @@ try:
                             </div>
                         </div>
                     </div>
+                    {pipeline_disclaimer}
                 </div>
             </div>
         </div>

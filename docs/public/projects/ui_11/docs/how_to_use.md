@@ -1,0 +1,1 @@
+The resources allow local governments, urban and infraestructure planning offices to evaluate how much area of the city is destined toe ach mode of transportation. It will be possible to include percentaje of area distribuited per mode as public and transportation allocation policies, to evaluate equity and accessibility.

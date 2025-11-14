@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ui_55",
+    "title": "A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis",
+    "dataset_link": "https://github.com/hausanlp/NaijaSenti"
+  },
+  {
+    "id": "ui_56",
+    "title": "Machine Translation Benchmark Dataset for Languages in the Horn of Africa",
+    "dataset_link": "https://github.com/asmelashteka/HornMT"
+  },
+  {
+    "id": "ui_57",
+    "title": "Kencorpus: Kenyan Languages Corpus for Machine Learning and Natural Language Processing",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_58",
+    "title": "KenPos: Kenyan Languages Part of Speech Tagged dataset",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_59",
+    "title": "KenSpeech: Swahili Speech Transcriptions",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_60",
+    "title": "KenTrans: A Parallel Corpora for Swahili and local Kenyan Languages",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_61",
+    "title": "KenSwQuAD – A Question Answering Dataset for Swahili Low Resource Language",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_62",
+    "title": "MasakhaNER 2.0: Named Entity Recognition datasets for 20 African languages",
+    "dataset_link": "https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data"
+  },
+  {
+    "id": "ui_63",
+    "title": "MAFAND-MT: Masakhane Anglo & Franco African News Corpus for Machine Translation",
+    "dataset_link": "https://github.com/masakhane-io/lafand-mt"
+  },
+  {
+    "id": "ui_64",
+    "title": "MasakhaPOS: Part-of-Speech Tagging Dataset for 20 African Languages",
+    "dataset_link": "https://github.com/masakhane-io/masakhane-pos"
+  },
+  {
+    "id": "ui_65",
+    "title": "Financial Inclusion Speech Dataset for some Ghanaian Languages",
+    "dataset_link": "https://github.com/Ashesi-Org/Financial-Inclusion-Speech-Dataset"
+  },
+  {
+    "id": "ui_66",
+    "title": "IgboSynCorp: Dataset for Igbo Natural Language Processing Tasks",
+    "dataset_link": "https://dataverse.harvard.edu/dataverse/0000-0002-0068-6933"
+  },
+  {
+    "id": "ui_67",
+    "title": "Bayelemabaga Aligned Bambara-French Corpus for Machine Translation",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_68",
+    "title": "Makerere University NLP Datasets",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_69",
+    "title": "BIG-C: A Multimodal Multi-Purpose Dataset for Bemba",
+    "dataset_link": "https://github.com/csikasote/bigc"
+  },
+  {
+    "id": "ui_70",
+    "title": "KALLAAMA",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_71",
+    "title": "NaijaVoices: Our Language is Our Strength",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_72",
+    "title": "AFRIDOC-MT: Document-level MT Corpus for African Languages",
+    "dataset_link": "https://github.com/masakhane-io/afridoc-mt"
+  },
+  {
+    "id": "ui_73",
+    "title": "Masakhane-NLU: Conversational AI & Benchmark datasets for African languages",
+    "dataset_link": "https://github.com/masakhane-io/masakhane-nlu"
+  },
+  {
+    "id": "ui_74",
+    "title": "Lacuna PII Multilingual Dataset",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_75",
+    "title": "Hate and Offensive Speech Detection Dataset for African Languages",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_76",
+    "title": "Ethio Speech Corpora",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_77",
+    "title": "Building Parallel Corpora for Kenya’s Indigenous Languages and Kiswahili",
+    "dataset_link": ""
+  },
+  {
+    "id": "ui_78",
+    "title": "Expanding a parallel corpus of Portuguese and the Bantu language Emakhuwa",
+    "dataset_link": ""
+  }
+]

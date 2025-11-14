@@ -1,0 +1,20 @@
+Dataset: KenSwQuAD – A Question Answering Dataset for Swahili Low Resource Language
+
+Country/Region: Kenya
+
+Description:
+This project produced a large Machine Reading Comprehension dataset for the Kiswahili Language. A total of 7,526 Question-Answer (QA) pairs were developed based on 1,445 Swahili story texts.
+
+Authors:
+Barack Wanjawa, Lawrence Muchemi (University of Nairobi), Lilian D.A. Wanzare, Florence Indede, Owen McOnyango (Maseno University), Edward Ombui (Africa Nazarene University)
+
+Contact:
+Barack Wanjawa (University of Nairobi), Lilian D.A. Wanzare (Maseno University), Florence Indede (Maseno University), Owen McOnyango (Maseno University), Lawrence Muchemi (University of Nairobi), Edward Ombui (Africa Nazarene University)
+
+Dataset Link:
+https://doi.org/10.7910/DVN/OTL0LM
+
+Category: Language Technology / Natural Language Processing
+Domain: SDG 4 (Quality Education) / Language Technology
+
+This dataset is part of the Lacuna Fund initiative to support machine learning datasets for social good in the Global South.

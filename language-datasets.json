@@ -1,0 +1,300 @@
+[
+  {
+    "title": "A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis",
+    "country": "Nigeria",
+    "contact": "Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Said Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jeorge, and Pavel Brazdil",
+    "description": "This dataset is the first large-scale human-annotated Twitter sentiment dataset for Hausa, Igbo, Nigerian-Pidgin, and Yorùbá, the four most widely spoken languages in Nigeria.",
+    "authors": [
+      {
+        "organization": "Multiple authors collaboration",
+        "names": ["Shamsuddeen Hassan Muhammad", "David Ifeoluwa Adelani", "Sebastian Ruder", "Ibrahim Said Ahmad", "Idris Abdulmumin", "Bello Shehu Bello", "Monojit Choudhury", "Chris Chinenye Emezue", "Saheed Salahudeen Abdullahi", "Anuoluwapo Aremu", "Alipio Jeorge", "Pavel Brazdil"]
+      }
+    ],
+    "dataset_link": "https://github.com/hausanlp/NaijaSenti",
+    "image": "language-banner"
+  },
+  {
+    "title": "Machine Translation Benchmark Dataset for Languages in the Horn of Africa",
+    "country": "Horn of Africa (Ethiopia, Eritrea)",
+    "contact": "Asmelash Teka Hadgu, Gebrekirstos G. Gebremeskel, Abel Aregawi",
+    "description": "This evaluation dataset automatically quantifies the quality of machine translation systems for Afar, Amharic, Oromo, Somali and Tigrinya.",
+    "authors": [
+      {
+        "organization": "Horn of Africa research collaboration",
+        "names": ["Asmelash Teka Hadgu", "Gebrekirstos G. Gebremeskel", "Abel Aregawi"]
+      }
+    ],
+    "dataset_link": "https://github.com/asmelashteka/HornMT",
+    "image": "language-banner"
+  },
+  {
+    "title": "Kencorpus: Kenyan Languages Corpus for Machine Learning and Natural Language Processing",
+    "country": "Kenya",
+    "contact": "Owen McOnyango (Maseno University), Florence Indede (Maseno University), Lilian D.A. Wanzare (Maseno University), Barack Wanjawa (University of Nairobi), Edward Ombui (Africa Nazarene University), Lawrence Muchemi (University of Nairobi)",
+    "description": "This project collected text and speech corpora for three languages in Kenya: Kiswahili, Dholuo and 3 Luhya dialects (Lumarachi, Logooli and Lubukusu). A total of 4,442 texts were collected and 1,152 files containing spontaneous speech data totaling 176 hours.",
+    "authors": [
+      {
+        "organization": "Maseno University",
+        "names": ["Owen McOnyango", "Florence Indede", "Lilian D.A. Wanzare"]
+      },
+      {
+        "organization": "University of Nairobi",
+        "names": ["Barack Wanjawa", "Lawrence Muchemi"]
+      },
+      {
+        "organization": "Africa Nazarene University",
+        "names": ["Edward Ombui"]
+      }
+    ],
+    "dataset_link": "https://doi.org/10.7910/DVN/6N5V1K",
+    "image": "language-banner"
+  },
+  {
+    "title": "KenPos: Kenyan Languages Part of Speech Tagged dataset",
+    "country": "Kenya",
+    "contact": "Florence Indede (Maseno University), Owen McOnyango (Maseno University), Lilian D.A. Wanzare (Maseno University), Barack Wanjawa (University of Nairobi), Edward Ombui (Africa Nazarene University), Lawrence Muchemi (University of Nairobi)",
+    "description": "This project developed a Part of Speech (POS) Tagged dataset of 2 languages in Kenya: Dholuo and 3 Luhya dialects (Lumarachi, Lulogooli, and Lubukusi). The project tagged approximately 143,000 words.",
+    "authors": [
+      {
+        "organization": "Maseno University",
+        "names": ["Florence Indede", "Owen McOnyango", "Lilian D.A. Wanzare"]
+      },
+      {
+        "organization": "University of Nairobi",
+        "names": ["Barack Wanjawa", "Lawrence Muchemi"]
+      },
+      {
+        "organization": "Africa Nazarene University",
+        "names": ["Edward Ombui"]
+      }
+    ],
+    "dataset_link": "https://doi.org/10.7910/DVN/KLCKL5",
+    "image": "language-banner"
+  },
+  {
+    "title": "KenSpeech: Swahili Speech Transcriptions",
+    "country": "Kenya",
+    "contact": "Dorcas Awino (University of Nairobi), Lawrence Muchemi (University of Nairobi), Lilian D.A. Wanzare (Maseno University), Edward Ombui (Africa Nazarene University), Barack Wanjawa (Maseno University), Owen McOnyango (Maseno University), Florence Indede (Maseno University)",
+    "description": "This project produced a speech dataset that includes both read and spontaneous speech recordings, recorded in Kenya with native Swahili speakers, and corresponding transcripts. In total, the dataset includes 27 hours, 31 minutes, 50 seconds of speech data from 26 speakers.",
+    "authors": [
+      {
+        "organization": "University of Nairobi",
+        "names": ["Dorcas Awino", "Lawrence Muchemi"]
+      },
+      {
+        "organization": "Maseno University",
+        "names": ["Lilian D.A. Wanzare", "Barack Wanjawa", "Owen McOnyango", "Florence Indede"]
+      },
+      {
+        "organization": "Africa Nazarene University",
+        "names": ["Edward Ombui"]
+      }
+    ],
+    "dataset_link": "https://doi.org/10.7910/DVN/YHXJSU",
+    "image": "language-banner"
+  },
+  {
+    "title": "KenTrans: A Parallel Corpora for Swahili and local Kenyan Languages",
+    "country": "Kenya",
+    "contact": "Lilian D.A Wanzare (Maseno University), Florence Indede (Maseno University), Owen McOnyango (Maseno University), Edward Ombui (Africa Nazarene University), Barack Wanjawa (University of Nairobi), Lawrence Muchemi (University of Nairobi)",
+    "description": "This project produced a parallel corpus between Swahili and two other Kenya Languages: Dholuo and 3 Luhya dialects (Lumarachi, Logooli and Lubukusu). A total of about 12,400 sentences were translated to Kiswahili.",
+    "authors": [
+      {
+        "organization": "Maseno University",
+        "names": ["Lilian D.A Wanzare", "Florence Indede", "Owen McOnyango"]
+      },
+      {
+        "organization": "University of Nairobi",
+        "names": ["Barack Wanjawa", "Lawrence Muchemi"]
+      },
+      {
+        "organization": "Africa Nazarene University",
+        "names": ["Edward Ombui"]
+      }
+    ],
+    "dataset_link": "https://doi.org/10.7910/DVN/NOAT0W",
+    "image": "language-banner"
+  },
+  {
+    "title": "KenSwQuAD – A Question Answering Dataset for Swahili Low Resource Language",
+    "country": "Kenya",
+    "contact": "Barack Wanjawa (University of Nairobi), Lilian D.A. Wanzare (Maseno University), Florence Indede (Maseno University), Owen McOnyango (Maseno University), Lawrence Muchemi (University of Nairobi), Edward Ombui (Africa Nazarene University)",
+    "description": "This project produced a large Machine Reading Comprehension dataset for the Kiswahili Language. A total of 7,526 Question-Answer (QA) pairs were developed based on 1,445 Swahili story texts.",
+    "authors": [
+      {
+        "organization": "University of Nairobi",
+        "names": ["Barack Wanjawa", "Lawrence Muchemi"]
+      },
+      {
+        "organization": "Maseno University",
+        "names": ["Lilian D.A. Wanzare", "Florence Indede", "Owen McOnyango"]
+      },
+      {
+        "organization": "Africa Nazarene University",
+        "names": ["Edward Ombui"]
+      }
+    ],
+    "dataset_link": "https://doi.org/10.7910/DVN/OTL0LM",
+    "image": "language-banner"
+  },
+  {
+    "title": "MasakhaNER 2.0: Named Entity Recognition datasets for 20 African languages",
+    "country": "Africa (Multi-country)",
+    "contact": "David Ifeoluwa Adelani, D.ADELANI@UCL.AC.UK",
+    "description": "MasakhaNER 2.0 is the largest human-annotated named entity recognition dataset for 20 African languages. Each language has between 4,800 – 11,000 parallel sentences for training and/or evaluation. The languages covered span across West, Central, East and Southern Africa.",
+    "authors": [
+      {
+        "organization": "Multiple collaborating institutions",
+        "names": ["David Ifeoluwa Adelani", "Multiple collaborators"]
+      }
+    ],
+    "dataset_link": "https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data",
+    "image": "language-banner"
+  },
+  {
+    "title": "MAFAND-MT: Masakhane Anglo & Franco African News Corpus for Machine Translation",
+    "country": "Africa (Multi-country)",
+    "contact": "David Ifeoluwa Adelani, D.ADELANI@UCL.AC.UK",
+    "description": "The MAFAND-MT dataset is a few thousand high-quality and human translated parallel sentences for 16 African languages in the news domain. Each language has between 1,466 – 7838 parallel sentences for training and/or evaluation.",
+    "authors": [
+      {
+        "organization": "Multiple collaborating institutions",
+        "names": ["David Ifeoluwa Adelani", "Multiple collaborators"]
+      }
+    ],
+    "dataset_link": "https://github.com/masakhane-io/lafand-mt",
+    "image": "language-banner"
+  },
+  {
+    "title": "MasakhaPOS: Part-of-Speech Tagging Dataset for 20 African Languages",
+    "country": "Africa (Multi-country)",
+    "contact": "David Ifeoluwa Adelani, D.ADELANI@UCL.AC.UK",
+    "description": "MasakhaPOS is the largest human-annotated part of speech tagging dataset for 20 African languages. Each language has between 1200 – 1500 sentences for training and/or evaluation. The languages covered span across West, Central, East and Southern Africa.",
+    "authors": [
+      {
+        "organization": "Multiple collaborating institutions",
+        "names": ["David Ifeoluwa Adelani", "Multiple collaborators"]
+      }
+    ],
+    "dataset_link": "https://github.com/masakhane-io/masakhane-pos",
+    "image": "language-banner"
+  },
+  {
+    "title": "Financial Inclusion Speech Dataset for some Ghanaian Languages",
+    "country": "Ghana",
+    "contact": "Dennis Asamoah Owusu, DOWUSU@ASHESI.EDU.GH",
+    "description": "This speech dataset for the Ghanian languages Akan (Akuapem Twi, Asante Twi, Fante) and Ga includes 104,000 utterances (speech) across the four dialects/languages with approximately 200 speakers per dialect/language. This amounts to about 148 hours of speech in total.",
+    "authors": [
+      {
+        "organization": "Ashesi University and collaborating institutions",
+        "names": ["Dennis Asamoah Owusu", "Multiple collaborators"]
+      }
+    ],
+    "dataset_link": "https://github.com/Ashesi-Org/Financial-Inclusion-Speech-Dataset",
+    "image": "language-banner"
+  },
+  {
+    "title": "IgboSynCorp: Dataset for Igbo Natural Language Processing Tasks",
+    "country": "Nigeria",
+    "contact": "Gerald Nweya (GERALDNWEYA@GMAIL.COM) and Emeka Onwuegbuzia (EONWUEGBUZIA@GMAIL.COM)",
+    "description": "This dataset is the first spoken corpus of labelled and unlabeled datasets for Igbo Natural Language Processing (NLP) tasks. It consists of approximately 40 hours of naturally occurring Igbo speech that is representative of all the dialects of Igbo.",
+    "authors": [
+      {
+        "organization": "Igbo NLP research collaboration",
+        "names": ["Gerald Nweya", "Emeka Onwuegbuzia"]
+      }
+    ],
+    "dataset_link": "https://dataverse.harvard.edu/dataverse/0000-0002-0068-6933",
+    "image": "language-banner"
+  },
+  {
+    "title": "Bayelemabaga Aligned Bambara-French Corpus for Machine Translation",
+    "country": "Mali/France",
+    "contact": "Christopher Homan, christopher.m.homan.phd@gmail.com",
+    "description": "The Bayelemabaga dataset consists of 46,976 parallel machine translation-ready Bambara-French sentence pairs, originating from the Bambara Reference Corpus from INALCO's LLACAN Lab. The text is extracted from 264 text files.",
+    "authors": [
+      {
+        "organization": "Multi-institutional collaboration",
+        "names": ["Allahsera Auguste Tapo", "Michael Leventhal", "Valentin Vydrin", "Sebastian Diarra", "Marcos Zampieri", "Emily Prud'Hommeaux", "Jean Jacque Méric", "Christopher Homan"]
+      }
+    ],
+    "dataset_link": "https://robotsmali-ai.github.io/datasets/",
+    "image": "language-banner"
+  },
+  {
+    "title": "Makerere University NLP Datasets",
+    "country": "Uganda, Tanzania, Kenya",
+    "contact": "Andrew Katumba | andrew.katumba@mak.ac.ug",
+    "description": "Makerere University has created text and speech datasets for low-resourced East African Languages in Uganda, Tanzania, and Kenya. This dataset contains 10,000 parallel sentiment-tagged sentences, 100,000 Kiswahili sentences, 100,000 Luganda sentences, 40,037 Acoli sentences, and 39,999 Lumasaaba sentences.",
+    "authors": [
+      {
+        "organization": "Makerere University",
+        "names": ["Katumba Andrew", "Nakatumba-Nabende Joyce", "Babirye Claire", "Mukiibi Jonathan", "Tusubira Jeremy", "Bateesa Tobias", "Wairagala Eric Peter", "Fridah Katushemererwe", "Mutebi Chodrine", "Nabende Peter", "Sentanda Medadi", "Ssenkungu Ivan"]
+      },
+      {
+        "organization": "Maseno University",
+        "names": ["Wanzare Lilian"]
+      },
+      {
+        "organization": "TYD Innovation Incubator",
+        "names": ["Davis David"]
+      }
+    ],
+    "dataset_link": "https://dataverse.harvard.edu/dataverse/makerereuniversitylacuna",
+    "image": "language-banner"
+  },
+  {
+    "title": "BIG-C: A Multimodal Multi-Purpose Dataset for Bemba",
+    "country": "Zambia",
+    "contact": "Claytone Sikasote | claytonsikasote@gmail.com",
+    "description": "The BIG-C (Bemba Image Grounded Conversations) dataset is comprised of multi-turn dialogues between Bemba speakers grounded on images, transcribed and translated to English. There are over 92,000 sentences, amounting to over 180 hours of speech data with corresponding Bemba transcriptions and English translations.",
+    "authors": [
+      {
+        "organization": "University of Zambia",
+        "names": ["Claytone Sikasote", "Eunice Mukonde – Mulenga"]
+      },
+      {
+        "organization": "George Mason University",
+        "names": ["Md Mahfuz Ibn Alam", "Antonios Anastasopoulos"]
+      }
+    ],
+    "dataset_link": "https://github.com/csikasote/bigc",
+    "image": "language-banner"
+  },
+  {
+    "title": "KALLAAMA",
+    "country": "Senegal",
+    "contact": "Aminata Ndiaye | amina.ndiaye@jokalante.com and Elodie Gauthier | elodie.gauthier@orange.com",
+    "description": "This dataset will strengthen natural language processing resources for Wolof, Pulaar, and Serer, the three most widely spoken languages in Senegal. This dataset's repository of transcribed speech includes over 55 hours in Wolof, 38 hours in Serer, and 31 hours in Pulaar.",
+    "authors": [
+      {
+        "organization": "Jokalante, Dakar, Senegal",
+        "names": ["Aminata Ndiaye Diallo"]
+      },
+      {
+        "organization": "Orange Innovation, Lannion, France",
+        "names": ["Elodie Gauthier"]
+      },
+      {
+        "organization": "Ecole Polytechnique de Thiès, Senegal",
+        "names": ["Abdoulaye Guissé"]
+      }
+    ],
+    "dataset_link": "https://github.com/gauthelo/kallaama-speech-dataset",
+    "image": "language-banner"
+  },
+  {
+    "title": "NaijaVoices: Our Language is Our Strength",
+    "country": "Nigeria",
+    "contact": "info@naijavoices.com",
+    "description": "The NaijaVoices project has curated 1,867 hours of speech and text data featuring over 5,000 speakers in the three major Nigerian languages — Hausa, Igbo, and Yoruba. As of its release, it is the largest ever multi-speaker African speech dataset. The dataset consists of circa 1,917,686 instances.",
+    "authors": [
+      {
+        "organization": "NaijaVoices project",
+        "names": ["Multiple contributors"]
+      }
+    ],
+    "dataset_link": "Not specified in source",
+    "image": "language-banner"
+  }
+]

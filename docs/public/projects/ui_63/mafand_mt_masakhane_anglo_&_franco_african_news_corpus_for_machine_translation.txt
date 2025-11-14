@@ -1,0 +1,20 @@
+Dataset: MAFAND-MT: Masakhane Anglo & Franco African News Corpus for Machine Translation
+
+Country/Region: Africa (Multi-country)
+
+Description:
+The MAFAND-MT dataset is a few thousand high-quality and human translated parallel sentences for 16 African languages in the news domain. Each language has between 1,466 – 7838 parallel sentences for training and/or evaluation.
+
+Authors:
+David Ifeoluwa Adelani, Multiple collaborators (Multiple collaborating institutions)
+
+Contact:
+David Ifeoluwa Adelani, D.ADELANI@UCL.AC.UK
+
+Dataset Link:
+https://github.com/masakhane-io/lafand-mt
+
+Category: Language Technology / Natural Language Processing
+Domain: SDG 4 (Quality Education) / Language Technology
+
+This dataset is part of the Lacuna Fund initiative to support machine learning datasets for social good in the Global South.

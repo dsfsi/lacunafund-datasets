@@ -1,0 +1,20 @@
+Dataset: KALLAAMA
+
+Country/Region: Senegal
+
+Description:
+This dataset will strengthen natural language processing resources for Wolof, Pulaar, and Serer, the three most widely spoken languages in Senegal. This dataset's repository of transcribed speech includes over 55 hours in Wolof, 38 hours in Serer, and 31 hours in Pulaar.
+
+Authors:
+Aminata Ndiaye Diallo (Jokalante, Dakar, Senegal), Elodie Gauthier (Orange Innovation, Lannion, France), Abdoulaye Guissé (Ecole Polytechnique de Thiès, Senegal)
+
+Contact:
+Aminata Ndiaye | amina.ndiaye@jokalante.com and Elodie Gauthier | elodie.gauthier@orange.com
+
+Dataset Link:
+https://github.com/gauthelo/kallaama-speech-dataset
+
+Category: Language Technology / Natural Language Processing
+Domain: SDG 4 (Quality Education) / Language Technology
+
+This dataset is part of the Lacuna Fund initiative to support machine learning datasets for social good in the Global South.

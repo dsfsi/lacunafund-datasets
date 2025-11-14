@@ -1,0 +1,20 @@
+Dataset: KenPos: Kenyan Languages Part of Speech Tagged dataset
+
+Country/Region: Kenya
+
+Description:
+This project developed a Part of Speech (POS) Tagged dataset of 2 languages in Kenya: Dholuo and 3 Luhya dialects (Lumarachi, Lulogooli, and Lubukusi). The project tagged approximately 143,000 words.
+
+Authors:
+Florence Indede, Owen McOnyango, Lilian D.A. Wanzare (Maseno University), Barack Wanjawa, Lawrence Muchemi (University of Nairobi), Edward Ombui (Africa Nazarene University)
+
+Contact:
+Florence Indede (Maseno University), Owen McOnyango (Maseno University), Lilian D.A. Wanzare (Maseno University), Barack Wanjawa (University of Nairobi), Edward Ombui (Africa Nazarene University), Lawrence Muchemi (University of Nairobi)
+
+Dataset Link:
+https://doi.org/10.7910/DVN/KLCKL5
+
+Category: Language Technology / Natural Language Processing
+Domain: SDG 4 (Quality Education) / Language Technology
+
+This dataset is part of the Lacuna Fund initiative to support machine learning datasets for social good in the Global South.

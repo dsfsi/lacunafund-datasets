@@ -1,0 +1,20 @@
+Dataset: MasakhaPOS: Part-of-Speech Tagging Dataset for 20 African Languages
+
+Country/Region: Africa (Multi-country)
+
+Description:
+MasakhaPOS is the largest human-annotated part of speech tagging dataset for 20 African languages. Each language has between 1200 – 1500 sentences for training and/or evaluation. The languages covered span across West, Central, East and Southern Africa.
+
+Authors:
+David Ifeoluwa Adelani, Multiple collaborators (Multiple collaborating institutions)
+
+Contact:
+David Ifeoluwa Adelani, D.ADELANI@UCL.AC.UK
+
+Dataset Link:
+https://github.com/masakhane-io/masakhane-pos
+
+Category: Language Technology / Natural Language Processing
+Domain: SDG 4 (Quality Education) / Language Technology
+
+This dataset is part of the Lacuna Fund initiative to support machine learning datasets for social good in the Global South.

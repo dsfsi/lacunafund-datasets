@@ -1,0 +1,1 @@
+Enables automated yield estimation, harvest planning, fruit quality assessment, and business decision support for tree crop farmers.

@@ -1,0 +1,1 @@
+This dataset can be used to develop AI applications for crop monitoring, yield estimation, damage assessment, and agricultural advisory services. It supports the development of precision agriculture tools specifically designed for smallholder farming systems.

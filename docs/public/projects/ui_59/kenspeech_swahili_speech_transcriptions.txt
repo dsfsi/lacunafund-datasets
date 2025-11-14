@@ -1,0 +1,20 @@
+Dataset: KenSpeech: Swahili Speech Transcriptions
+
+Country/Region: Kenya
+
+Description:
+This project produced a speech dataset that includes both read and spontaneous speech recordings, recorded in Kenya with native Swahili speakers, and corresponding transcripts. In total, the dataset includes 27 hours, 31 minutes, 50 seconds of speech data from 26 speakers.
+
+Authors:
+Dorcas Awino, Lawrence Muchemi (University of Nairobi), Lilian D.A. Wanzare, Barack Wanjawa, Owen McOnyango, Florence Indede (Maseno University), Edward Ombui (Africa Nazarene University)
+
+Contact:
+Dorcas Awino (University of Nairobi), Lawrence Muchemi (University of Nairobi), Lilian D.A. Wanzare (Maseno University), Edward Ombui (Africa Nazarene University), Barack Wanjawa (Maseno University), Owen McOnyango (Maseno University), Florence Indede (Maseno University)
+
+Dataset Link:
+https://doi.org/10.7910/DVN/YHXJSU
+
+Category: Language Technology / Natural Language Processing
+Domain: SDG 4 (Quality Education) / Language Technology
+
+This dataset is part of the Lacuna Fund initiative to support machine learning datasets for social good in the Global South.

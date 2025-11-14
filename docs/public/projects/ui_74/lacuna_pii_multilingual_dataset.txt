@@ -1,0 +1,3 @@
+Lacuna PII Multilingual Dataset
+
+Languages: Luganda, Lumasaba, Hausa, and Kanuri

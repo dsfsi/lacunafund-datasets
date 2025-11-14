@@ -1,0 +1,1 @@
+This dataset can be used to develop tools for community land use planning, conflict early warning systems, infrastructure development planning for pastoral areas, and sustainable rangeland management systems.

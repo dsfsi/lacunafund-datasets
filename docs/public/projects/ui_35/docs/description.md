@@ -1,0 +1,1 @@
+This machine learning dataset of smallholder farmer's fields includes georeferenced crop images along with labels on input use, crop management, phenology, crop damage, and yields, collected across 8 counties in Kenya. This dataset enables the development of AI systems to monitor crop conditions, predict yields, and support agricultural decision-making for smallholder farmers.

@@ -1,0 +1,1 @@
+Enables crop monitoring, yield prediction, and agricultural decision support systems for smallholder farmers.

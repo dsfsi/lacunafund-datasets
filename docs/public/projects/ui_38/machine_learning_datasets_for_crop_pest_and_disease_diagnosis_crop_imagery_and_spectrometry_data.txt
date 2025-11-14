@@ -1,0 +1,1 @@
+Machine Learning Datasets for Crop Pest and Disease Diagnosis: Crop Imagery and Spectrometry Data

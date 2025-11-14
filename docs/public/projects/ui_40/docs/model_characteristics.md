@@ -1,0 +1,1 @@
+Enables yield prediction models, crop insurance products, and agricultural risk assessment for smallholder farmers accessing financial services.

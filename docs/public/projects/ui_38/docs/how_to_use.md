@@ -1,0 +1,1 @@
+This dataset can be used to develop mobile applications for crop disease diagnosis, early warning systems for pest outbreaks, and precision agriculture tools for smallholder farmers growing food security crops.

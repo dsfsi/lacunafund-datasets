@@ -1,0 +1,1 @@
+Enables crop type classification, agricultural development planning, early warning systems, and regional trade analysis for Sub-Saharan Africa.

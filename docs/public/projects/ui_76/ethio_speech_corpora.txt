@@ -1,0 +1,3 @@
+Ethio Speech Corpora
+
+Languages: Amharic, Tigrigna, Oromo, Somali, Afar, Sidama

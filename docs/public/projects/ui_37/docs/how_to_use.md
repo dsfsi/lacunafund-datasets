@@ -1,0 +1,1 @@
+This dataset can be used to develop IoT-based monitoring systems for aquaculture, predictive models for water quality management, and automated control systems for sustainable fish farming operations.

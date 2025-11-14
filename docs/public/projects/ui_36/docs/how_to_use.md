@@ -1,0 +1,1 @@
+This dataset can be used for yield prediction modeling, agricultural policy planning, food security assessments, and developing precision agriculture applications for East African smallholder farmers.

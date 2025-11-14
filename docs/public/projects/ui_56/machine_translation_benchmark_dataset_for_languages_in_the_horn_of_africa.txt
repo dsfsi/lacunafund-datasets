@@ -1,0 +1,20 @@
+Dataset: Machine Translation Benchmark Dataset for Languages in the Horn of Africa
+
+Country/Region: Horn of Africa (Ethiopia, Eritrea)
+
+Description:
+This evaluation dataset automatically quantifies the quality of machine translation systems for Afar, Amharic, Oromo, Somali and Tigrinya.
+
+Authors:
+Asmelash Teka Hadgu, Gebrekirstos G. Gebremeskel, Abel Aregawi (Horn of Africa research collaboration)
+
+Contact:
+Asmelash Teka Hadgu, Gebrekirstos G. Gebremeskel, Abel Aregawi
+
+Dataset Link:
+https://github.com/asmelashteka/HornMT
+
+Category: Language Technology / Natural Language Processing
+Domain: SDG 4 (Quality Education) / Language Technology
+
+This dataset is part of the Lacuna Fund initiative to support machine learning datasets for social good in the Global South.

@@ -1,0 +1,1 @@
+Enables accurate yield mapping, crop monitoring, and agricultural planning across East Africa using corrected geolocation data.

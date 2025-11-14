@@ -1,0 +1,1 @@
+This dataset includes corrected geolocations of fields, improving the usability of the most expansive Eastern Africa crop cut yield estimation. Collected by the non-profit One Acre Fund from 2015 – 2019, this dataset covers major crop producing regions in Kenya, Rwanda, and Tanzania. It enables accurate yield mapping and agricultural monitoring across East Africa.

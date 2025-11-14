@@ -1,0 +1,1 @@
+This dataset can be used to develop mobile applications for yield estimation, harvest timing optimization tools, fruit quality assessment systems, and agricultural business planning platforms for tree crop farmers.

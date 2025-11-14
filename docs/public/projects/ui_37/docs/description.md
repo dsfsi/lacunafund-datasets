@@ -1,0 +1,1 @@
+This project built a remotely monitored and controlled Internet of Things (IoT) fish pond water quality management system for the generation of labeled datasets both for conventional ponds and the aquaponic pond systems. It enables monitoring and optimization of water quality parameters for sustainable aquaculture.

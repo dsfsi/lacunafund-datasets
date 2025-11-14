@@ -1,0 +1,1 @@
+Enables automated crop field boundary detection, agricultural area estimation, and crop monitoring systems across Africa.

@@ -1,0 +1,1 @@
+The Bayelemabaga dataset consists of 46,976 parallel machine translation-ready Bambara-French sentence pairs, originating from the Bambara Reference Corpus from INALCO's LLACAN Lab. The text is extracted from 264 text files.

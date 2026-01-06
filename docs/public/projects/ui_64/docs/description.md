@@ -1,0 +1,1 @@
+MasakhaNER 2.0 is the largest human-annotated named entity recognition dataset for 20 African languages. Each language has between 4,800 – 11,000 parallel sentences for training and/or evaluation. The languages covered span across West, Central, East and Southern Africa.

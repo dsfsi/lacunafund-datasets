@@ -1,0 +1,1 @@
+The MAFAND-MT dataset is a few thousand high-quality and human translated parallel sentences for 16 African languages in the news domain. Each language has between 1,466 – 7838 parallel sentences for training and/or evaluation.

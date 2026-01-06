@@ -1,1 +1,0 @@
-Enables land use planning, conflict prediction, livestock migration route identification, and infrastructure placement for pastoral communities.

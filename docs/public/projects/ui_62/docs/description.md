@@ -1,0 +1,1 @@
+This project produced a parallel corpus between Swahili and two other Kenya Languages: Dholuo and 3 Luhya dialects (Lumarachi, Logooli and Lubukusu). A total of about 12,400 sentences were translated to Kiswahili.

@@ -1,6 +1,3 @@
-Corrected geolocations of maize fields with yield data from 2015-2019 covering major crop producing regions in Kenya, Rwanda, and Tanzania. Most expansive Eastern Africa crop cut yield estimation dataset.
-• 3 Countries (Kenya, Rwanda, Tanzania)
-• 2015-2019 data collection period
-• Corrected geolocations of fields
-• Maize crop cut yield estimation
-• Major crop producing regions coverage
+Limitations include limited representativeness due to smart meter coverage spanning only about 10% of LECO customers, residual missingness and contiguous gaps in smart meter time-series data that reduce suitability for fine-grained analysis, and potential recall or estimation bias in selected self-reported survey variables.
+
+To support responsible and ethical use, the dataset is released with explicit documentation of these limitations, clearly defined suitable and unsuitable use cases, and strong guidance against national-level inference, income estimation, appliance-level disaggregation, or real-time operational forecasting. All data are de-identified, aggregated at the household meter level, and intended strictly for research, re-use, and replication

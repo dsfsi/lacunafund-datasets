@@ -1,0 +1,1 @@
+Makerere University has created text and speech datasets for low-resourced East African Languages in Uganda, Tanzania, and Kenya. This dataset contains 10,000 parallel sentiment-tagged sentences, 100,000 Kiswahili sentences, 100,000 Luganda sentences, 40,037 Acoli sentences, and 39,999 Lumasaaba sentences.

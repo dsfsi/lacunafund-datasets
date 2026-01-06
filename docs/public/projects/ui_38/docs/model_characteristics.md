@@ -1,1 +1,0 @@
-Enables crop disease classification, early detection systems, pest identification, and spatial analysis for food security crops in Sub-Saharan Africa.

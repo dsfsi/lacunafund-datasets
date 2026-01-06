@@ -1,0 +1,1 @@
+This data repository will evaluate factors that contribute to child malnutrition in Chile and children's nutritional status, as well as the associated costs. The focus at this stage is on estimating health costs associated with child malnutrition and identifying biopsychosocial determinants that lead to it.

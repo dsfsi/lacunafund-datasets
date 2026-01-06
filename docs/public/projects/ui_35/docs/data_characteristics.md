@@ -1,6 +1,1 @@
-Georeferenced crop images with labels on input use, crop management, phenology, crop damage, and yields from 8 counties in Kenya. Machine learning ready dataset for smallholder agriculture monitoring.
-• 8 Counties in Kenya
-• Georeferenced crop images
-• Labels on input use, crop management, phenology
-• Crop damage and yield assessments
-• Machine learning ready format
+The dataset provides georeferenced, annotated Sentinel-2 and Hansen imagery with clear landuse and landcover classes, groundtruth data, and standardized protocols. Users can train AI models for landuse and landcover classification, detect deforestation, validate predictions, and support restoration planning. Its high resolution, temporal coverage, and open accessibility enable accurate, scalable environmental monitoring.

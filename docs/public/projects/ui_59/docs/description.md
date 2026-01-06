@@ -1,0 +1,1 @@
+This project collected text and speech corpora for three languages in Kenya: Kiswahili, Dholuo and 3 Luhya dialects (Lumarachi, Logooli and Lubukusu). A total of 4,442 texts were collected and 1,152 files containing spontaneous speech data totaling 176 hours.

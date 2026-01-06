@@ -1,3 +1,0 @@
-AFRIDOC-MT: Document-level MT Corpus for African Languages
-
-Languages: Amharic, Hausa, Swahili, Yorùbá, and Zulu

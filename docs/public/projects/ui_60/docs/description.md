@@ -1,0 +1,1 @@
+This project developed a Part of Speech (POS) Tagged dataset of 2 languages in Kenya: Dholuo and 3 Luhya dialects (Lumarachi, Lulogooli, and Lubukusi). The project tagged approximately 143,000 words.

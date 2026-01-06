@@ -1,0 +1,1 @@
+The BIG-C (Bemba Image Grounded Conversations) dataset is comprised of multi-turn dialogues between Bemba speakers grounded on images, transcribed and translated to English. There are over 92,000 sentences, amounting to over 180 hours of speech data with corresponding Bemba transcriptions and English translations.

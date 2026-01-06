@@ -1,0 +1,1 @@
+MasakhaPOS is the largest human-annotated part of speech tagging dataset for 20 African languages. Each language has between 1200 – 1500 sentences for training and/or evaluation. The languages covered span across West, Central, East and Southern Africa.

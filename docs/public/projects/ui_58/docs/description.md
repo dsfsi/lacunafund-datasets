@@ -1,0 +1,1 @@
+This evaluation dataset automatically quantifies the quality of machine translation systems for Afar, Amharic, Oromo, Somali and Tigrinya.

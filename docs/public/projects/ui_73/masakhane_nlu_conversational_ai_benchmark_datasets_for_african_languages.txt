@@ -1,3 +1,0 @@
-Masakhane-NLU: Conversational AI & Benchmark datasets for African languages
-
-Languages: Amharic, Ewe, Hausa, Igbo, Lingala, Luganda, Oromo, Kinyarwanda, Shona, Sesotho, Swahili, Twi, Wolof, Xhosa, Yoruba and Zulu

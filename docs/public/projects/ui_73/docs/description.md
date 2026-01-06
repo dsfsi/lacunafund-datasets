@@ -1,0 +1,1 @@
+The NaijaVoices project has curated 1,867 hours of speech and text data featuring over 5,000 speakers in the three major Nigerian languages — Hausa, Igbo, and Yoruba. As of its release, it is the largest ever multi-speaker African speech dataset. The dataset consists of circa 1,917,686 instances.

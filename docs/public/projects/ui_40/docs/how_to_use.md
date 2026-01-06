@@ -1,1 +1,0 @@
-This dataset can be used to develop crop insurance products, yield prediction systems, agricultural lending platforms, and risk assessment tools for financial institutions serving smallholder farmers.

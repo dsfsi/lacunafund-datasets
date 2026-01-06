@@ -1,0 +1,1 @@
+This project produced a large Machine Reading Comprehension dataset for the Kiswahili Language. A total of 7,526 Question-Answer (QA) pairs were developed based on 1,445 Swahili story texts.

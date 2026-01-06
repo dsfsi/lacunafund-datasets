@@ -1,0 +1,1 @@
+This speech dataset for the Ghanian languages Akan (Akuapem Twi, Asante Twi, Fante) and Ga includes 104,000 utterances (speech) across the four dialects/languages with approximately 200 speakers per dialect/language. This amounts to about 148 hours of speech in total.

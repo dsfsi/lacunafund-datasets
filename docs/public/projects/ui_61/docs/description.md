@@ -1,0 +1,1 @@
+This project produced a speech dataset that includes both read and spontaneous speech recordings, recorded in Kenya with native Swahili speakers, and corresponding transcripts. In total, the dataset includes 27 hours, 31 minutes, 50 seconds of speech data from 26 speakers.

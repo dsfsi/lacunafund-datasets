@@ -1,1 +1,0 @@
-This dataset can be used to develop automated field boundary detection systems, agricultural statistics generation, crop area estimation tools, and satellite-based monitoring systems for African agriculture.

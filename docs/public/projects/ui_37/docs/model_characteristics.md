@@ -1,1 +1,0 @@
-Enables automated water quality monitoring, predictive maintenance for aquaculture systems, and optimization of aquaponics operations.

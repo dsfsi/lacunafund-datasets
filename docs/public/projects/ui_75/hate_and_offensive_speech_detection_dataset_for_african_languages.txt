@@ -1,3 +1,0 @@
-Hate and Offensive Speech Detection Dataset for African Languages
-
-Languages: Hausa, Yoruba, Igbo, Nigerian Pidgin, Algerian Arabic, Moroccan Arabic, Swahili, IsiXhosa, IsiZulu, Kinyarwanda, Twi, Amharic, Oromo, Somali, Tigrinya

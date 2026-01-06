@@ -1,0 +1,1 @@
+This dataset will strengthen natural language processing resources for Wolof, Pulaar, and Serer, the three most widely spoken languages in Senegal. This dataset's repository of transcribed speech includes over 55 hours in Wolof, 38 hours in Serer, and 31 hours in Pulaar.

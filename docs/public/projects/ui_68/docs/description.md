@@ -1,0 +1,1 @@
+This dataset is the first spoken corpus of labelled and unlabeled datasets for Igbo Natural Language Processing (NLP) tasks. It consists of approximately 40 hours of naturally occurring Igbo speech that is representative of all the dialects of Igbo.

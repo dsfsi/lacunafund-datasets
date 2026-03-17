@@ -1,0 +1,10 @@
+Use these to update existing rows in the Google Sheet (do NOT add new rows).
+
+Find each Project ID in the sheet and set "Access to the dataset [link]" to the value below.
+
+Project ID	Suggested dataset link	Note
+ui_77	https://github.com/AfriHate/AfriHate	Gold had empty link
+ui_78	https://ethiospeech.com/	Gold had empty link
+ui_80	https://huggingface.co/LIACC/datasets	Gold had different URL
+
+Copy the three data rows (ui_77, ui_78, ui_80) and paste into a temp sheet, then manually copy each link into the correct row in the main catalog by Project ID.

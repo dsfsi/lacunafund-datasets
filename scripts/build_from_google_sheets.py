@@ -329,6 +329,18 @@ if not args.skip_fetch:
                 else:
                     print(f"  Warning: Optional column '{canonical_name}' could not be matched. (Best guess: '{best_match_for_canonical}' with score {highest_score})")
 
+        # Fallback: map empty/blank first-column header to Project ID (sheet sometimes has unnamed first column)
+        if "Project ID" not in found_canonical_headers and actual_headers:
+            for h in actual_headers:
+                if (h or "").strip() == "" and h not in header_mapping:
+                    header_mapping[h] = "Project ID"
+                    found_canonical_headers.add("Project ID")
+                    processed_actual_headers.add(h)
+                    if "Project ID" in unmatched_critical:
+                        unmatched_critical.remove("Project ID")
+                    print(f"  Mapped: (empty first column) -> 'Project ID'")
+                    break
+
         # Abort if critical columns are missing
         if unmatched_critical:
             print(f"Error: Aborting due to missing critical columns: {unmatched_critical}")

@@ -12,7 +12,8 @@ If you are a Lacuna Fund grantee and want to add/change your dataset, please see
 
 1.  **Access the Source:** The data for this catalog lives in this [Google Sheet](https://docs.google.com/spreadsheets/d/18sgZgPGZuZjeBTHrmbr1Ra7mx8vSToUqnx8vCjhIp0c/edit?gid=2002859408#gid=2002859408).
 2.  **Add Your Project:** Add a new row to the sheet and fill in the details for your project. Please follow the format of existing entries and use the second row as a guide for the expected content in each column.
-3.  **Update the Website:** Once you've added your information to the Google Sheet, the website needs to be rebuilt to include it. Please contact one of the repository maintainers or follow the "Update via GitHub Actions" steps below (if you have write access) to trigger an update.
+3.  **Automatic Website Refresh:** The production website auto-refreshes from the source Google Sheet daily at 12:00 CAT (10:00 UTC) via GitHub Actions.
+4.  **Manual Refresh (Optional):** If you need an immediate update, trigger the "Manually Update Website from Google Sheets" workflow.
 
 ## How to Update the Website
 
@@ -36,6 +37,10 @@ There are two main ways to update the website:
     *   Click the green "**Run workflow**" button.
     *   The workflow will perform the same steps as running `scripts/build_from_google_sheets.py` locally, fetching the latest data, rebuilding the website, and automatically committing the changes to the `main` branch. The live website will be updated shortly after the workflow completes successfully. (Note: This action does not currently run the placeholder image download script).
 
+3.  **Automatic Scheduled Updates:**
+    *   The same workflow also runs automatically daily at 12:00 CAT (10:00 UTC).
+    *   This means content edits in the Google Sheet are reflected on the website without any code edits.
+
 
 ### Placeholder Images
 
@@ -57,6 +62,15 @@ This requires a Pexels API key. Set it up via:
 2. Download its JSON key file.
 3. Save it as `data_sources/google_sheets_api/service_account_JN.json` (or match the path used in scripts/workflows).
 4. Ensure this file is listed in `.gitignore` and **never commit it**.
+
+### Validation Checklist (Content Update)
+
+Use this quick checklist after any source-sheet change:
+
+1. Confirm your row was added/edited in the source Google Sheet.
+2. Trigger the workflow manually or wait for the automatic daily 12:00 CAT refresh.
+3. Verify the latest workflow run is green in GitHub Actions.
+4. Open the website and confirm updated card title, links, and panel content are visible.
 
 #### Pexels API Key
 
@@ -91,7 +105,7 @@ Needed for `scripts/download_placeholder_images.py`. Set via `.env` file or `--a
 
 ### GitHub Actions
 
-- `.github/workflows/update_from_google_sheets.yml`: **Manually triggered** workflow to run `scripts/build_from_google_sheets.py` and commit results to `main`.
+- `.github/workflows/update_from_google_sheets.yml`: **Manually and automatically triggered** workflow to run `scripts/build_from_google_sheets.py` and commit results to `main`.
 - `.github/workflows/monthly_backup.yml`: **Automatically triggered** workflow (1st of month) to run `scripts/backup_google_sheet.py` and commit the monthly raw CSV backup.
 
 ### Contributing (Code)

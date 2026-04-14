@@ -45,9 +45,6 @@ jobs:
 
     - name: Run Backup Script
       id: backup_run
-      env:
-        GOOGLE_SHEET_URL: https://docs.google.com/spreadsheets/d/18sgZgPGZuZjeBTHrmbr1Ra7mx8vSToUqnx8vCjhIp0c/edit?gid=2002859408#gid=2002859408
-        GOOGLE_SHEET_GID: '2002859408'
       run: |
         echo "Running backup script..."
         BACKUP_DIR="data_sources/google_sheets_backup"

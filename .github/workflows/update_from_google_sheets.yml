@@ -3,7 +3,7 @@ name: Manually Update Website from Google Sheets
 on:
   workflow_dispatch:  # Allow manual triggering
   schedule:
-    - cron: '0 */6 * * *'  # Automatic refresh every 6 hours
+    - cron: '0 10 * * *'  # Automatic refresh once per day (12:00 CAT / 10:00 UTC)
 
 jobs:
   update:
